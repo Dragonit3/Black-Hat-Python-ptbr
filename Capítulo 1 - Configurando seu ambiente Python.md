@@ -85,7 +85,8 @@ root@kali:~# apt-get -f install
 ___
 
    Entre no WingIDE e abra um novo arquivo Python em branco. E então acompanhe enquanto apresento um rápido resumo de algumas ferramentas úteis. Para começar, sua tela irá se parecer com a Figura 1-3, com sua área principal de código no canto superior esquerdo e um conjunto de janelas na parte na parte inferior.
-   
+   ![F3 - Layout da janela principal do WingIDE](https://github.com/Dragonit3/Black-Hat-Python-ptbr/assets/160602980/a4b130b3-2fa7-4758-afd5-d142acaf5027)
+
    *Figure 1-3: Layout da janela principal do WingIDE*
 
    Vamos escrever um código simples para ilustrar algumas funções úteis do WingIDE, incluindo as guias *Debug Probe* e *Stack Data*. Insira o código a seguir no editor:
@@ -110,6 +111,7 @@ answer = sum("1","2")
 ___
 
    Este é um exemplo bem inventado, mas é uma excelente demonstração de como WingIDE facilita sua vida. Salve o arquivo com qualquer nome que queira, clique no menu ***Debug***, e selecione a opção ***Select Current as Main Debug File***, como mostrado na Figura 1-4.
+   ![F4 - Configurando o script atual para debugging](https://github.com/Dragonit3/Black-Hat-Python-ptbr/assets/160602980/b5c76aca-c3b4-4ac1-9d20-2b382fea0cbb)
    
    *Figure 1-4: Configurando o script atual para debugging*
 
@@ -125,9 +127,12 @@ ___
 
 ___
 
+   ![F5 - Vendo a pilha de dados depois de alcançar o ponto de parada](https://github.com/Dragonit3/Black-Hat-Python-ptbr/assets/160602980/94bd0d0b-47d8-4666-b8c9-1c49ea3ef911)
    
    *Figura 1-5: Vendo a pilha de dados depois de alcançar o ponto de parada*
-   
+
+   ![F6 - Vendo o caminho da pilha](https://github.com/Dragonit3/Black-Hat-Python-ptbr/assets/160602980/58880bb8-b9e5-439e-b649-089c53e4dab0)
+
    *Figura 1-6: Vendo o caminho da pilha*
 
 ___
@@ -135,7 +140,8 @@ ___
    Nós podemos perceber que `convert_integer` foi chamado pela função `sum` na linha 3 do nosso script em Python. Isso se torna muito útil se você tem recursivas chamadas de função ou uma função que é chamada de vários lugares. Usar a pilha de dados será muito útil na sua carreira de desenvolvimento em Python!
 
    A próxima ferramenta é o menu *Debug Probe*. Esse menu permite que você entre em um terminal Python que está executando dentro o contexto atual do exato momento que seu ponto de parada foi alcançado. Isso permite você inspecionar e modificar variáveis, bem como escrever pequenos trechos de teste de código para novas ideias ou para resolver problemas. A Figura 1-7 demonstra como inspecionar a variável `converted_integer` e mudar seu valor.
-   
+   ![F7 - Usando o Debug Probe para inspecionar e modificar variáveis locais](https://github.com/Dragonit3/Black-Hat-Python-ptbr/assets/160602980/56d8499f-22b0-46b6-b41a-143757a0c095)
+
    *Figura 1-7: Usando o Debug Probe para inspecionar e modificar variáveis locais*
 
    Depois de fazer algumas modificações, você pode retomar a execução do script pressionando F5.
