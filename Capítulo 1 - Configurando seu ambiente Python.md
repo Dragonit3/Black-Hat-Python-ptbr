@@ -14,7 +14,8 @@ ___
 <div align="center">
 <img src="https://github.com/Dragonit3/Black-Hat-Python-ptbr/assets/160602980/5202a5e3-f32b-4df1-979d-f855c2478692" width="600px" />
 </div>
-   *Figura 1-1: Área de trabalho Kali Linux*
+   											*Figura 1-1: Área de trabalho Kali Linux*
+
 
    A primeira coisa que precisamos fazer é certificar que estamos com a correta versão de Python instalada. Nesse livro vamos usar o Python 2.7. No shell (**Aplicações > Acessórios > Terminal**), execute o seguinte comando:
    
