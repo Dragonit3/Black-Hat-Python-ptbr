@@ -10,7 +10,7 @@ ___
    Kali é o sucessor da distribuição do BackTrack Linux, designado para Defesa ofensiva desde o início como um sistema operacional para teste de penetração. Vem um com um número de ferramentas pré-instaladas e é baseado no Debian Linux, então será possível instalar uma grande variedade de ferramentas e bibliotecas adicionais além do que esta no sistema operacional.
    
    Primeiro, pegue a imagem da máquina virtual Kali na seguinte URL: [http://images.offensive-security.com/kali-linux-1.0.9-vm-i486.7z](http://images.offensive-security.com/kali-linux-1.0.9-vm-i486.7z).² Baixe e descomprima a image, e então, dê dois cliques para o VMWare Player abrí-la. O Usuário padrão é *root* e a senha é *toor*. Isso pode colocar você dentro do ambiente Kali completo, como mostrado na Figura 1-1.
-   
+   ![](https://github.com/Dragonit3/Black-Hat-Python-ptbr/issues/1#issue-2279692496)
    *Figura 1-1: Área de trabalho Kali Linux*
 
    A primeira coisa que precisamos fazer é certificar que estamos com a correta versão de Python instalada. Nesse livro vamos usar o Python 2.7. No shell (**Aplicações > Acessórios > Terminal**), execute o seguinte comando:
