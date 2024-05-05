@@ -1,3 +1,4 @@
+# Capítulo 1 - Configurando seu ambiente Python
 Essa parte é a menos divertida, mas mesmo assim crítica do livro, Onde nós passamos pela configuração de um ambiente para escrever e testar em Python. Vamos fazer um curso intensivo sobre como configurar uma máquina virtual (VM) com Kali Linux e instalar uma boa IDE para que você tenha tudo que precisa para desenvolver códigos. Ao final do capítulo, você deve estar pronto para fazer os exercícios e os exemplos de código pelo restante do livro.
 
    Antes de começar, vamos baixar e Instalar o VMWare Player.¹ Também recomendo que você tenha algumas máquina virtual Windows prontas, incluindo Windows XP e Windows 7, de preferência de 32 bits em ambos os casos
