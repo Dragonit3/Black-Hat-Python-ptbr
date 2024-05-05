@@ -76,7 +76,8 @@ root@kali:~# apt-get -f install
 ```
 
    O comando deve arrumar qualquer dependência em falta e instalar o WingIDE. Para verificar se você instalou ele corretamente, certifique-se que consegue acessá-lo como mostrado na Figura 1-2.
-   
+   ![F2 - Acessando WingIDE via VM Kali](https://github.com/Dragonit3/Black-Hat-Python-ptbr/assets/160602980/629f9a91-9eb1-4677-8437-487c3113cad6)
+
    *Figure 1-2: Acessando WingIDE via VM Kali*
 
 3. Para comparação de ferramentas entre versões, visite https://wingware.com/wingide/features/
